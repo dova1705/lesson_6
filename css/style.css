@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@400;700&display=swap");
+@font-face {
+    font-family: "Adventure";
+    src: url("../fonts/Adventure.woff2") format("woff2"),
+        url("../fonts/Adventure.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* &display=swap&subset=cyrillic-ext */
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	line-height: 1;
+	font-family: Noto Sans Mono;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+/* ------------------------------ */
+
+.circle{
+	background-color: green;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	margin: 20px 20px;
+}
+
+.text{
+	font-size: 20px;
+	margin: 0 20px 30px;
+	opacity: 0.5;
+}
+div p {
+	margin: 0 0 20px;
+}
+.paragraph_three{
+	margin: 0;
+}
+.span{
+	display: block;
+	width: 50%;
+	margin: 0 0 20px 20px;
+	padding: 10px;
+	border: 3px solid rgb(240, 187, 12);
+	text-align: center;
+	line-height: 120%;
+	font-weight: 700;
+
+}
+.block_border{
+	width: 300px;
+	height: 300px;
+	padding: 10px;
+	overflow: auto;
+	line-height: 120%;
+	text-align: justify;
+	margin: 0 0 20px 20px;
+	border-top: 10px solid rgb(157, 250, 8);
+	border-right: 10px dotted rgb(15, 202, 15);
+	border-bottom: 10px dashed rgb(223, 238, 7);
+	border-left: 10px double rgb(255, 0, 0);
+	font-family: Adventure;
+
+}
+
+.link_one{
+	display: inline-block;
+	font-size: 30px;
+	margin: 0 50px 20px 20px;
+	box-shadow: 10px 10px 50px crimson;
+}
+.link_two{
+	font-size: 50px;
+	text-shadow: 10px 10px 10px green;
+	font-family: Adventure;
+}
+.footer{
+	background-color: rgb(21, 93, 160);
+	height: 50px;
+	text-align: center;
+}
+.footer_text{
+	padding: 25px 0 0 0;
+}
